@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose');
 import {customerSchema} from './CustomerModel'
 const ObjectId = mongoose.Schema.Types.ObjectId
 
